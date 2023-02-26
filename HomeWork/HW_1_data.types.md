@@ -1,16 +1,16 @@
 |Data Types||
 |---|---|
-|1. Создать переменную типа String|```a = "Hello World!"```<br/>```print(type(x))```|
-|2. Создать переменную типа Integer|```b = 20```<br/>```print(type(x))```|
-|3. Создать переменную типа Float|```c = 3.14```<br/>```print(type(x))```|
-|4. Создать переменную типа Bytes|```d = b"Hello"```<br/>```print(type(x))```|
-|5. Создать переменную типа List|```h = ["apple", "banana", "cucumber"]```<br/>```print(type(x))```|
-|6. Создать переменную типа Tuple|```g = ("potato", "ananas", "cherry")```<br/>```print(type(x))```|
-|7. Создать переменную типа Set|```k = {"onion", "pumpkin", "avocado"}```<br/>```print(type(x))```|
-|8. Создать переменную типа Frozen set|```l = frozenset({"hello", "future", "QA"})```<br/>```print(type(x))```|
-|9. Создать переменную типа Dict|```m = {"name": "Vale", "age": 25}```<br/>```print(type(x))```|
+|1. Создать переменную типа String|```x = "Hello World!"```<br/>```print(type(x))```|
+|2. Создать переменную типа Integer|```x = 20```<br/>```print(type(x))```|
+|3. Создать переменную типа Float|```x = 3.14```<br/>```print(type(x))```|
+|4. Создать переменную типа Bytes|```x = b"Hello"```<br/>```print(type(x))```|
+|5. Создать переменную типа List|```x = ["apple", "banana", "cucumber"]```<br/>```print(type(x))```|
+|6. Создать переменную типа Tuple|```x = ("potato", "ananas", "cherry")```<br/>```print(type(x))```|
+|7. Создать переменную типа Set|```x = {"onion", "pumpkin", "avocado"}```<br/>```print(type(x))```|
+|8. Создать переменную типа Frozen set|```x = frozenset({"hello", "future", "QA"})```<br/>```print(type(x))```|
+|9. Создать переменную типа Dict|```x = {"name": "Vale", "age": 25}```<br/>```print(type(x))```|
 |||
-|10. Вывести в консоль все выше перечисленные переменные с добавлением типа данных||
+|10. Вывести в консоль все выше перечисленные переменные с добавлением типа данных|```for item in x:```<br/>```	print(item, type(x))```|
 |11. Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль|```name = "Vale"```<br/>```surname = "Dudenko"```<br/>```print(name, surname)```|
 |12. Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)|```name = "Alex"```<br/>```age = 33```<br/>```print(name, str(age))```|
 |13. Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)|```name = "Alex"```<br/>```age = 33```<br/>```result = name + str(age)```<br/>```print(result)```|
